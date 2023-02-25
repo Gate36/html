@@ -1,0 +1,25 @@
+.profile {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 3vw;
+  text-align: center;
+}
+
+.namecard {
+  font-size: 2vw;
+  background-color: lightgreen;
+}
+
+.description {
+  font-family: sans-serif;
+}
+
+#special {
+  color: red;
+  font-weight: 700;
+}

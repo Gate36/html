@@ -24,10 +24,41 @@
       </p>
     </div>
 
-    <form>
-      <input type="text" placeholder="Input here" name />
-      <input type="password" />
-      <input type="radio" />
-    </form>
+    <div class="form-background">
+      <div class="form-white">
+        <form>
+          <div class="w-100">
+            <h3 class="form-title">Contact Us</h3>
+            <p class="form-text">Your Email</p>
+            <input
+              class="form-input"
+              type="email"
+              placeholder="email@example.com"
+            />
+          </div>
+          <div class="w-50">
+            <p class="form-text">First name</p>
+            <input class="form-input" type="text" />
+          </div>
+          <div class="w-50">
+            <p class="form-text">Last name</p>
+            <input class="form-input" type="text" />
+          </div>
+          <div style="clear: both"></div>
+          <div class="w-100">
+            <p class="form-text">Message</p>
+            <textarea class="form-input form-message"></textarea>
+          </div>
+          <div class="w-100">
+            <div class="form-checkbox">
+              <input id="sub" type="checkbox" />
+              <label for="sub" class="form-text">Subscribe</label>
+            </div>
+            <button class="form-button form-text">SEND</button>
+            <div style="clear: both"></div>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

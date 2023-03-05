@@ -2,9 +2,14 @@ body {
   font-family: sans-serif;
 }
 
-div {
-  margin: 0px;
+div,
+input,
+textarea {
   box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
 }
 
 .main-background {
@@ -67,4 +72,64 @@ div {
 .main-box-title {
   font-size: 16px;
   font-weight: bolder;
+}
+
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form-message {
+  height: 150px;
+}
+
+.form-checkbox {
+  float: left;
+}
+
+.form-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: right;
+}
+
+.form-title {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.form-text {
+  font-size: 20px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
 }

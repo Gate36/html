@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}

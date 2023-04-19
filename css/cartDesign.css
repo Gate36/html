@@ -84,6 +84,33 @@ th {
   height: 50px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.cart-pay:hover {
+  background-color: rgb(130, 67, 44);
+}
+.cart-pay:focus {
+  background-color: gray;
+}
+.cart-pay:active {
+  background-color: brown;
+}
+
+.cart-edit {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.cart-edit a {
+  text-decoration: none;
+}
+
+.cart-edit a:link {
+  color: violet;
+}
+.cart-edit a:visited {
+  color: black;
 }
 
 .cart-bottom {

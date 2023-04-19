@@ -6,35 +6,44 @@
     <link href="css/cartDesign.css" rel="stylesheet" />
   </head>
   <body>
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>
-              <p>This</p>
-              <p>is</p>
-              <p>a test</p>
-            </th>
-            <td style="vertical-align: middle">OK</td>
-            <td>3</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>1</th>
-            <td>2</td>
-            <td>3</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div>
-      <img
-        src="https://mdn.mozillademos.org/files/12245/frame_image.svg"
-        width="32"
-        height="32"
-      />
-      <p style="vertical-align: middle">image with a default alignment.</p>
+    <div class="cart-background">
+      <h4 class="cart-title">Your shopping cart</h4>
+      <div class="cart-main">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <td></td>
+              <td>Item</td>
+              <td>Amount</td>
+              <td>Price</td>
+              <td>Total</td>
+            </tr>
+          </thead>
+          <tbody class="cart-list">
+            <tr>
+              <td><img src="img/donut.png" /></td>
+              <td>도넛(맛있다)</td>
+              <td>1</td>
+              <td>2500</td>
+              <td>2500</td>
+            </tr>
+            <tr>
+              <td><img src="img/mellon.jpg" /></td>
+              <td>멜론(둥글다)</td>
+              <td>2</td>
+              <td>1000</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td colspan="5" class="cart-total">Total : 4500</td>
+            </tr>
+          </tbody>
+        </table>
+        <div clas="cart-bottom">
+          <p class="cart-edit">쇼핑카드 수정</p>
+          <button class="cart-pay">결제하기</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

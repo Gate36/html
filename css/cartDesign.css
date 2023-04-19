@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 div,
@@ -20,4 +20,75 @@ table {
 td,
 th {
   border: 1px solid black;
+}
+
+.footer {
+  clear: both;
+}
+
+.cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-title {
+  color: #133761;
+  font-size: 30px;
+}
+
+.cart-table {
+  background-color: white;
+  color: #7894a7;
+  width: 100%;
+  margin: auto;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.cart-table td,
+.cart-table th {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #c2d3de;
+}
+
+.cart-table td:nth-child(2) {
+  width: 400px;
+}
+
+.cart-list tr img {
+  border-radius: 5px;
+  width: 50px;
+}
+
+.cart-list tr td:nth-child(3) {
+  text-align: right;
+}
+
+.cart-list tr td:nth-child(5) {
+  color: #133761;
+  font-weight: 1000;
+}
+
+.cart-total {
+  color: #133761;
+  font-weight: 1000;
+  text-align: right;
+}
+
+.cart-pay {
+  background-color: #133761;
+  color: #c2d3de;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.cart-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
 }

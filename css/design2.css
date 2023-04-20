@@ -26,6 +26,21 @@ textarea {
   resize: none;
 }
 
+.flex-container {
+  background-color: darkslategrey;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
 .main-background {
   position: relative;
 

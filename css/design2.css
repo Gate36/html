@@ -1,5 +1,19 @@
+@font-face {
+  font-family: "나눔글꼴R";
+  src: url(../font/NanumSquareR.woff);
+}
+
 body {
-  font-family: sans-serif;
+  font-family: "나눔글꼴R";
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
+  transform: rotate(0.03deg);
 }
 
 div,
@@ -19,7 +33,7 @@ textarea {
   height: 500px;
   padding: 1px;
   text-align: center;
-  background-image: url(../shoes.jpg);
+  background-image: url(../img/shoes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
